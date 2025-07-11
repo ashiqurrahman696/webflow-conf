@@ -34,6 +34,11 @@
     padding: 15px 20px;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
+    transition: .5s;
+    &:hover{
+        background-color: transparent;
+        color: var(--primary);
+    }
 }
 /* Header section */
 header{
