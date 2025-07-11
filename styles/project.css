@@ -46,6 +46,10 @@
 .section-title{
     font-size: 48px;
 }
+.section-text{
+    margin: 20px 0;
+    color: rgba(37, 36, 50, 0.5);
+}
 /* Styling body tag */
 body{
     background-color: #f5f8ff;
@@ -84,8 +88,6 @@ section{
         align-items: center;
         & .action-left{
             & p{
-                margin: 20px 0;
-                color: rgba(37, 36, 50, 0.5);
                 font-size: 24px;
             }
         }
