@@ -60,6 +60,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* navbar */
     & nav{
         display: flex;
         justify-content: space-between;
@@ -71,6 +72,7 @@ header{
             font-size: 34px;
         }
     }
+    /* hero section */
     & .hero{
         padding: 50px 20px;
         & .hero-title{
@@ -82,6 +84,7 @@ header{
 }
 section{
     margin: 50px 0;
+    /* action section */
     &.action-section{
         display: flex;
         justify-content: space-between;
@@ -96,6 +99,7 @@ section{
             border-radius: 42px;
         }
     }
+    /* productive user section */
     &.productive-user{
         background-color: rgba(78, 71, 255, 0.1);
         padding: 28px 32px;
@@ -117,6 +121,7 @@ section{
             }
         }
     }
+    /* review section */
     &.review .cards{
         margin-top: 20px;
         display: grid;
@@ -153,6 +158,7 @@ section{
             }
         }
     }
+    /* focus section */
     &.focus{
         background-color: #fff;
         padding: 24px;
@@ -165,6 +171,7 @@ section{
             border-radius: 40px;
         }
     }
+    /* newsletter section */
     &.newsletter{
         display: flex;
         align-items: center;
@@ -193,6 +200,7 @@ section{
         }
     }
 }
+/* footer section */
 footer{
     background-color: #fff;
     padding: 50px 30px;
