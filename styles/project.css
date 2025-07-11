@@ -116,4 +116,40 @@ section{
             }
         }
     }
+    &.review .cards{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        & .card{
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #f2eded;
+            & .rating{
+                margin-bottom: 20px;
+                color: #ffb805;
+            }
+            & .review-title{
+                margin-bottom: 10px;
+            }
+            & .review-text{
+                margin-bottom: 20px;
+            }
+            & .reviewer{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                & img{
+                    border-radius: 50%;
+                }
+                & h4{
+                    color: #757575;
+                }
+                & p{
+                    color: #b3b3b3;
+                }
+            }
+        }
+    }
 }
