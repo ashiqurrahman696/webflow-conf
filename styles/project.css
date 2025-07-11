@@ -21,6 +21,9 @@
 .raleway{
     font-family: "Raleway", sans-serif;
 }
+.text-center{
+    text-align: center;
+}
 .btn{
     display: inline-block;
     background-color: var(--primary);
@@ -30,6 +33,7 @@
     font-weight: 700;
     padding: 15px 20px;
     text-decoration: none;
+    font-family: "Raleway", sans-serif;
 }
 /* Header section */
 header{
@@ -46,6 +50,14 @@ header{
             color: var(--primary);
             font-weight: 900;
             font-size: 34px;
+        }
+    }
+    & .hero{
+        padding: 50px 20px;
+        & .hero-title{
+            width: 900px;
+            font-size: 60px;
+            margin: 0 auto 20px;
         }
     }
 }
