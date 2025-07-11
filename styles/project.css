@@ -40,6 +40,10 @@
         color: var(--primary);
     }
 }
+/* Styling body tag */
+body{
+    background-color: #f5f8ff;
+}
 /* Header section */
 header{
     background-image: url(../assets/Hero-bg.png);
