@@ -40,6 +40,9 @@
         color: var(--primary);
     }
 }
+.section-title{
+    font-size: 48px;
+}
 /* Styling body tag */
 body{
     background-color: #f5f8ff;
@@ -67,6 +70,22 @@ header{
             width: 900px;
             font-size: 60px;
             margin: 0 auto 20px;
+        }
+    }
+}
+section{
+    margin: 50px 0;
+    &.action-section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        & .action-left{
+            & p{
+                margin: 20px 0;
+            }
+        }
+        & .action-right img{
+            border-radius: 42px;
         }
     }
 }
