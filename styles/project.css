@@ -95,4 +95,25 @@ section{
             border-radius: 42px;
         }
     }
+    &.productive-user{
+        background-color: rgba(78, 71, 255, 0.1);
+        padding: 28px 32px;
+        border-radius: 20px;
+        & h2{
+            margin-bottom: 30px;
+            font-size: 38px;
+        }
+        & .user-stats{
+            display: flex;
+            justify-content: space-around;
+            & h3{
+                color: var(--primary);
+                font-size: 80px;
+            }
+            & p{
+                color: rgba(37, 36, 50, 0.5);
+                font-size: 20px;
+            }
+        }
+    }
 }
